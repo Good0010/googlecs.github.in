@@ -1,6 +1,6 @@
-# Welcome to Kris3c's Hacking Space 
+# Welcome to googlecs Hacking Space 
 
-![Logo_Reveal](https://github.com/kris3c/kris3c.github.io/assets/128035061/fa29d69d-5e46-4f48-9c08-679a3055df0a)
+![Logo_Reveal](https://i.pinimg.com/originals/ae/f5/07/aef5079ccda4fe39a3076371ea1cd58e.jpg)
 
 This space is dedicated to individuals with a strong interest in the world of security. Here, you will find informative blogs, write-ups, roadmaps, resources, and more. Let's break things down together. :)
 
@@ -9,6 +9,6 @@ This space is dedicated to individuals with a strong interest in the world of se
 #### Latest Content Update: 30-03-2025
 
 - Article
-  - [Vim: The Exit Command](https://kris3c.github.io/article/vim-the-exit-command), March 30,2025
+  - [Vim: The Exit Command](), March 30,2025
 
 
