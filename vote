@@ -1,0 +1,46 @@
+#!/bin/bash
+
+# Vote counter variables
+alice=0
+bob=0
+
+echo "🗳️ Welcome to Simple Voting Machine!"
+echo "Candidates:"
+echo "1. Alice"
+echo "2. Bob"
+
+echo ""
+echo "Enter total number of voters:"
+read total
+
+i=1
+while [ $i -le $total ]
+do
+  echo ""
+  echo "Voter $i, please vote (1 for Alice, 2 for Bob):"
+  read vote
+
+  if [ "$vote" -eq 1 ]; then
+    alice=$((alice + 1))
+  elif [ "$vote" -eq 2 ]; then
+    bob=$((bob + 1))
+  else
+    echo "Invalid vote!"
+  fi
+
+  i=$((i + 1))
+done
+
+# Show results
+echo ""
+echo "📊 Voting Over!"
+echo "Alice got: $alice votes"
+echo "Bob got: $bob votes"
+
+if [ $alice -gt $bob ]; then
+  echo "🎉 Alice is the Winner!"
+elif [ $bob -gt $alice ]; then
+  echo "🎉 Bob is the Winner!"
+else
+  echo "🤝 It's a Tie!"
+fi
